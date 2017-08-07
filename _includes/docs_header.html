@@ -1,0 +1,48 @@
+<div class="docs-header" id="content">
+  <div class="container">
+  	{% if page.title%}
+  		<!--
+		    <h1>{{ page.title }}</h1>
+		    <p>Post on {{ page.date | date: "%b %d, %Y" }} by <a href="/about">{{ site.author }}</a></p>
+		-->
+		    <h1>{{ page.title }}</h1>
+    {% else %}
+	    <h1>{{ site.name }}</h1>
+	    <p>{{ site.description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<script type="text/javascript">
+	
+(function ($) {
+    $(document).ready(function(){
+    var $window = $(window),
+    $image = $('.docs-header');
+    $headimg = $('.docs-nav');
+    
+    var temp = 0;
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+        var ano = 0;
+        temp = top - temp;
+        if (top < 0 || top > 1500) { return; } 
+        if (top > 380) {
+        	$headimg.css('background-position-y', '-770px');
+        }
+        if (top < 380 ) {
+        
+        		$headimg.css('background-position-y', '-'+(390+top)+'px');
+        	
+        	// 	ano = 390 + top;
+        	// }else{
+        	// 	$headimg.css('background-position-y', '-'+(ano-390)+'px');	
+        	// }
+        }
+        temp = top;
+      });
+      $window.trigger('scroll');
+  });
+}(jQuery));
+
+</script>

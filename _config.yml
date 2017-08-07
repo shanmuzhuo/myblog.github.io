@@ -1,0 +1,40 @@
+# Site settings
+name: Shanmuzhuo
+email: shanmuzhuo@foxmail.com
+author: shanmuzhuo
+url: 
+resume_site: 
+github: https://github.com/luoyan35714/
+baseurl: 
+description: 每一天都要成长!
+meta_description: 努力才有未来
+motto: It's our wits that make us men.
+banner: 为了更好的每一天
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+gems: [jekyll-paginate]
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: Pygments.rb
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light

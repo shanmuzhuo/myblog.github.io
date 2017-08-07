@@ -6316,7 +6316,7 @@ hr {
 .docs-header,
 .docs-home {
   color: white;
-  background: url('/styles/images/nt.jpg') 0px -450px;
+  background: url('http://ou343dnae.bkt.clouddn.com/nt.jpg') 0px -450px;
   height: 320px;
 }
 /* Page headers */
@@ -6512,7 +6512,7 @@ hr {
 }
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-  background: url('/styles/images/nt.jpg') 0px -390px;
+  background: url('http://ou343dnae.bkt.clouddn.com/nt.jpg') 0px -390px;
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
 }

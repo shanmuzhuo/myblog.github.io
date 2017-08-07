@@ -25,6 +25,14 @@ highlighter: Pygments.rb
 markdown: kramdown
 kramdown:
   input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
